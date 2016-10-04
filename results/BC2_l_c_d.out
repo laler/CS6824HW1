@@ -1,0 +1,6 @@
+average shortest path length: 
+{'macaque_cortex': 2.2969818913480884, 'cat_cortex': 1.8080693815987934, 'macaque_functional': 2.0541165587419057, 'coactivation': 2.2148737961545844, 'primate_cortex': 1.7160919540229884, 'high_density': 1.3399014778325122}
+average clustering coefficient: 
+{'macaque_cortex': 0.4548945605308708, 'cat_cortex': 0.5519767902636112, 'macaque_functional': 0.550709878008833, 'coactivation': 0.3844533292242755, 'primate_cortex': 0.5312785526020822, 'high_density': 0.728961001949152}
+graph density: 
+{'macaque_cortex': 0.15010060362173036, 'cat_cortex': 0.308446455505279, 'macaque_functional': 0.2335800185013876, 'coactivation': 0.09165711136154485, 'primate_cortex': 0.3574712643678161, 'high_density': 0.6600985221674877}

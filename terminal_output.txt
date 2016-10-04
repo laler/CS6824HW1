@@ -1,0 +1,94 @@
+WS-3 p tests completed.
+Time used: 1935.7761s
+WS-3 p tests completed.
+Time used: 1153.6195s
+WS4 n=100, k=20 plot finished.
+Time used: 5.7363s
+WS4 n=1000, k=20 plot finished.
+Time used: 497.4212s
+WS4 n=5000, k=20 plot finished.
+Time used: 14566.7287s
+
+--------------------
+loading macaque_cortex (./1993-Proc-Royal-Society-organization-neural-systems-macaque71.mat)
+# of rows and columns in ml_matrix: 71 71
+Name: macaque_cortex
+Type: DiGraph
+Number of nodes: 71
+Number of edges: 746
+Average in degree:  10.5070
+Average out degree:  10.5070
+writing macaque_cortex to: results/./1993-Proc-Royal-Society-organization-neural-systems-macaque71.txt
+
+--------------------
+loading cat_cortex (./1995-journal-neuroscience-connectivity-cerebral-cortex-cat.mat)
+# of rows and columns in ml_matrix: 52 52
+Name: cat_cortex
+Type: DiGraph
+Number of nodes: 52
+Number of edges: 818
+Average in degree:  15.7308
+Average out degree:  15.7308
+writing cat_cortex to: results/./1995-journal-neuroscience-connectivity-cerebral-cortex-cat.txt
+
+--------------------
+loading macaque_functional (./2007-pnas-honey-network-structure-functional-connectivity-macaque47.mat)
+# of rows and columns in ml_matrix: 47 47
+Name: macaque_functional
+Type: DiGraph
+Number of nodes: 47
+Number of edges: 505
+Average in degree:  10.7447
+Average out degree:  10.7447
+writing macaque_functional to: results/./2007-pnas-honey-network-structure-functional-connectivity-macaque47.txt
+
+--------------------
+loading coactivation (./2013-PNAS-Crossley-Cognitive-relevance-coactivation-matrix.mat)
+# of rows and columns in ml_matrix: 638 638
+Name: coactivation
+Type: Graph
+Number of nodes: 638
+Number of edges: 18625
+Average degree:  58.3856
+writing coactivation to: results/./2013-PNAS-Crossley-Cognitive-relevance-coactivation-matrix.txt
+
+--------------------
+loading primate_cortex (./1991-cerebral-cortex-felleman-primate-cerebral-cortex-fv30.mat)
+# of rows and columns in ml_matrix: 30 30
+Name: primate_cortex
+Type: DiGraph
+Number of nodes: 30
+Number of edges: 311
+Average in degree:  10.3667
+Average out degree:  10.3667
+writing primate_cortex to: results/./1991-cerebral-cortex-felleman-primate-cerebral-cortex-fv30.txt
+
+--------------------
+loading high_density (./2012-cerebral-cortex-markov-weighted-directed-interareal-macaque.txt)
+650
+# of rows and columns in ml_matrix: 29 29
+Name: high_density
+Type: DiGraph
+Number of nodes: 29
+Number of edges: 536
+Average in degree:  18.4828
+Average out degree:  18.4828
+writing high_density to: results/./2012-cerebral-cortex-markov-weighted-directed-interareal-macaque_edges.txt
+
+BC1_plot l and c for all six networks saved.
+Histogram for 1993_l.png created.
+Histogram for 1993_c.png created.
+Histogram for 1995_l.png created.
+Histogram for 1995_c.png created.
+Histogram for 2007_l.png created.
+Histogram for 2007_c.png created.
+Histogram for 2013_l.png created.
+Histogram for 2013_c.png created.
+Histogram for 1991_l.png created.
+Histogram for 1991_c.png created.
+Histogram for 2012_l.png created.
+Histogram for 2012_c.png created.
+Figure 1A of Cortical High-Density paper created.
+Writing l, c, d values for six graphs completed.
+Figure 1A with gray area created.
+Press any key to continue . . .
