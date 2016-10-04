@@ -168,6 +168,16 @@ def BC_plot_lc(lglist, cglist):
     plt.xlabel(xname)
     plt.savefig('results/BC1_l_c.png') # save as png
     plt.clf()
+    for i in lglist.keys():
+        index = list(lglist.keys()).index(i)
+        plt.plot(yc[index], yl[index], linestyle = 'None', marker = 'o', label = i+" "+YEARS[i])
+    plt.title("Plot l and c for all six networks")
+    plt.xlim([0.2, 1.0])
+    plt.legend()
+    plt.xlabel('c')
+    plt.ylabel('l')
+    plt.savefig('results/BC1_l_c2.png')
+    plt.clf()
     print()
     print("BC1_plot l and c for all six networks saved.")
     return
